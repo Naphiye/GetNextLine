@@ -24,8 +24,6 @@ Chaque ligne doit être allouée dynamiquement et libérée par l’utilisateur.
 
 Gestion de tous les cas possibles : fichiers vides, fichiers très longs, lignes sans \n.
 
-Possibilité de gérer plusieurs descripteurs de fichiers simultanément.
-
 ## Difficulté et conseils
 
 Ce projet est considéré comme techniquement exigeant pour plusieurs raisons :
@@ -37,7 +35,3 @@ La lecture progressive des fichiers nécessite une gestion fine des buffers.
 Il faut écrire une fonction robuste, capable de gérer tous les cas d’usage possibles.
 
 Compréhension nécessaire des descripteurs de fichiers et des appels système (read, open, close).
-
-La complexité augmente si vous devez gérer plusieurs fichiers ouverts simultanément.
-
-Ce projet permet de se familiariser avec la programmation système en C, la gestion mémoire, et les détails du fonctionnement des fichiers et des buffers.
