@@ -14,7 +14,7 @@ Elle lit une ligne à la fois depuis le descripteur de fichier fd.
 La ligne inclut le caractère de fin de ligne \n si présent.
 Elle retourne NULL lorsque la fin du fichier est atteinte ou en cas d’erreur.
 
-Contraintes du projet
+## Contraintes du projet
 
 Fonctions autorisées limitées : seule une petite partie de la libc est utilisable (read, malloc, free, etc.).
 
@@ -26,7 +26,7 @@ Gestion de tous les cas possibles : fichiers vides, fichiers très longs, lignes
 
 Possibilité de gérer plusieurs descripteurs de fichiers simultanément.
 
-Difficulté et conseils
+## Difficulté et conseils
 
 Ce projet est considéré comme techniquement exigeant pour plusieurs raisons :
 
