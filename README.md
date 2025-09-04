@@ -24,7 +24,7 @@ Chaque ligne doit être allouée dynamiquement et libérée par l’utilisateur.
 
 Gestion de tous les cas possibles : fichiers vides, fichiers très longs, lignes sans \n.
 
-## Ce projet est considéré comme techniquement exigeant pour plusieurs raisons :
+## Exigeance du projet :
 
 Une bonne maîtrise de la gestion dynamique de la mémoire est indispensable pour éviter les fuites.
 
